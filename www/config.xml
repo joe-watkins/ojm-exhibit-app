@@ -18,6 +18,9 @@
 
     <preference name="phonegap-version" value="3.0.0" /> 
 
+    <access origin="*" />
+    <content src="http://illuminatedletters.net/exhibit/" />
+
     
     <!-- icons -->
     <icon src="icon-57.png" />
@@ -41,15 +44,6 @@
     <icon src="icons/ios/icon-512.png" gap:platform="ios" width="512" height="512" />
     <icon src="icons/ios/icon-512_at_2x.png" gap:platform="ios" width="1024" height="1024" />
 
-    <!-- launch screens -->
-    <!-- <gap:splash src="splash/ios/Default-iphone.png" gap:platform="ios" width="320" height="480" />
-    <gap:splash src="splash/ios/Default-iphone_x2.png" gap:platform="ios" width="640" height="960" />
-    <gap:splash src="splash/ios/Default-iphone5.png" gap:platform="ios" width="640" height="1136" />
-    <gap:splash src="splash/ios/Default-iPad-Portrait.png" gap:platform="ios" width="768" height="1004" />
-    <gap:splash src="splash/ios/Default-iPad-Portrait_x2.png" gap:platform="ios" width="1536" height="2008" />
-    <gap:splash src="splash/ios/Default-iPad-Landscape.png" gap:platform="ios" width="1024" height="768" />
-    <gap:splash src="splash/ios/Default-iPad-Landscape_x2.png" gap:platform="ios" width="2048" height="1496" />
-    -->
 
     <gap:splash src="splash.png" />
     <gap:splash src="splash/ios/Default-iPad-Landscape.png" width="1024" height="768" />
@@ -57,7 +51,4 @@
     <gap:splash src="splash/ios/Default-iphone.png" width="320" height="480" />
     <gap:splash src="splash/ios/Default-iphone_x2.png" width="640" height="960" />
 
-
-
-    <gap:plugin name="org.apache.cordova.core.inappbrowser" />
 </widget>
